@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Pooksy! - 25 Today! 🥰</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Improved Flex Design for Image Gallery */
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .image-gallery img {
+            width: 100%;
+            max-width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .image-gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Birthday, Pooksy! 🎂</h1>
+        <p class="message">Wishing the cutest girl the most magical day ever! <br> I love you so much! ❤️ Pooksypoo is now 25! 🥰 </p>
+        <div class="image-gallery">
+            <img src="assets/images/DSC08153.JPG" alt="Memory 1">
+            <img src="assets/images/DSC08326.JPG" alt="Memory 2">
+            <img src="assets/images/IMG_20230526_152256057.jpg" alt="Memory 3">
+            <img src="assets/images/IMG_20230526_221908030.jpg" alt="Memory 4">
+            <img src="assets/images/IMG_20230527_163931911.jpg" alt="Memory 5">
+            <img src="assets/images/IMG_20250630_230055158_AE.jpg" alt="Memory 6">
+        </div>
+        <button id="celebrateBtn">Click for Fireworks! 🎉</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

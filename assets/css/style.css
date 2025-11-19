@@ -1,0 +1,83 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #ffe6f2; /* Light pink background */
+    background-image: radial-gradient(#ffb3d9 2px, transparent 2px);
+    background-size: 30px 30px;
+    color: #555;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5em;
+    color: #ff69b4;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 0px #fff;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #555;
+}
+
+.message {
+    font-size: 1.2em;
+    color: #d63384;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin: 10px;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 15px rgba(255, 105, 180, 0.3);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05) rotate(2deg);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(255, 105, 180, 0.2);
+    border: 2px solid #ffcce6;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 10px rgba(255, 105, 180, 0.4);
+}
+
+button:hover {
+    background-color: #ff1493;
+}
