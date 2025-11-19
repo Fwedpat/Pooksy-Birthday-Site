@@ -10,7 +10,7 @@ birthday-website
 │   ├── css
 │   │   └── style.css
 │   ├── images
-│   │   └── .gitkeep
+│   │   └── JPG Images
 │   └── js
 │       └── script.js
 ├── index.html
